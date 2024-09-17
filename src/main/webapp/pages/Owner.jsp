@@ -2,7 +2,8 @@
 <%@ page import="java.sql.Connection" %>
 <%@ page import="dao.OwnerDao" %>
 <%@ page import="bean.Owner" %>
-<%@ page import="java.util.List" %><%--
+<%@ page import="java.util.List" %>
+<%--
   Created by IntelliJ IDEA.
   User: HP
   Date: 9/14/2024
@@ -47,22 +48,13 @@
     %>
 </h1>
 
-    <table  class="table table-responsive">
-        <thead>
-        <tr>
-            <th>Id</th>
-            <th>Name</th>
-            <th>Father Name</th>
-            <th>Remarks</th>
-            <th>CNIC</th>
-        </tr>
-        </thead>
 
         <div class="row">
 
             <div class="col-md-8">
                 <br>
                 <a href="AddOwner.jsp" class="btn btn-primary mt-3">Add Owner</a>
+                <a href="SearchOwner.jsp" class="btn btn-primary mt-3">Search Owner</a>
 
             </div>
         </div>
@@ -76,6 +68,7 @@
                 <th>Remarks</th>
                 <th>CNIC</th>
                 <th>Action</th>
+                <th>Update </th>
             </tr>
             </thead>
                 <tbody>

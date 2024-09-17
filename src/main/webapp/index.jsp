@@ -29,7 +29,7 @@
             <div class="panel panel-primary">
                 <div class="panel-heading">Vehicle</div>
                 <div class="panel-body">
-                    <a href="pages/Vehicle.jsp" class="btn btn-primary btn-lg btn-block">Go to Vehicle</a>
+                    <a href="pages/Register.jsp" class="btn btn-primary btn-lg btn-block">Go to Vehicle</a>
                 </div>
             </div>
         </div>

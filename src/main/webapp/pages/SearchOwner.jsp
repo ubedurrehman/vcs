@@ -43,8 +43,27 @@ Owner owner=null;
 
             if (owner != null) {
               %>
-                    OWner CNic  : <%= owner.getoCnic() %> <br>
-                    OWner Name  : <%= owner.getoName() %> <br>
+<h1 class="card-title">Owner Is Available</h1>
+        <div class="form-group col-md-8">
+            <label>Owner Name</label>
+            <input type="readOnly" class="form-control" name="ownerName" value="<%= owner.getoName() %>" required>
+        </div>
+
+        <div class="form-group col-md-8">
+            <label>Owner Father's Name</label>
+            <input type="readOnly" class="form-control" name="ownerFname" value="<%= owner.getoFatherName() %>" required>
+        </div>
+
+        <div class="form-group col-md-8">
+            <label>Owner CNIC</label>
+            <input type="readOnly" class="form-control" name="ownerCnic" value="<%= owner.getoCnic() %>" required>
+        </div>
+
+        <div class="form-group col-md-8 ">
+            <label>Owner Remarks</label>
+            <input type="readOnly" class="form-control" name="ownerRemarks" value="<%= owner.getoRemarks() %>">
+        </div>
+
 
 
     <%  }   else {    %>

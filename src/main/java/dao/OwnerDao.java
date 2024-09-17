@@ -8,7 +8,7 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 
 public class OwnerDao {
-    Connection con = null;
+        Connection con = null;
 
   public   OwnerDao(Connection con) {
         this.con = con;

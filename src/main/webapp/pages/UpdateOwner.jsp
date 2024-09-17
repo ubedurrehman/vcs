@@ -40,7 +40,7 @@
                     </div>
 
                     <div class="form-group">
-                        <label>Owner Father's Name</label>
+                        <label>Owner Father Name</label>
                         <input type="text" class="form-control" name="ownerFname" value="<%= owner.getoFatherName() %>" required>
                     </div>
 

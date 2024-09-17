@@ -10,8 +10,65 @@ public class Vehicle {
         private String vFuelType;
         private String vColor;
 
+     private   int ownerId;
 
-        public Vehicle(int vId, String vRegister, String vMake, String vEngineType, String vFuelType, String vColor) {
+    public int getvId() {
+        return vId;
+    }
+
+    public void setvId(int vId) {
+        this.vId = vId;
+    }
+
+    public String getvRegister() {
+        return vRegister;
+    }
+
+    public void setvRegister(String vRegister) {
+        this.vRegister = vRegister;
+    }
+
+    public String getvMake() {
+        return vMake;
+    }
+
+    public void setvMake(String vMake) {
+        this.vMake = vMake;
+    }
+
+    public String getvEngineType() {
+        return vEngineType;
+    }
+
+    public void setvEngineType(String vEngineType) {
+        this.vEngineType = vEngineType;
+    }
+
+    public String getvFuelType() {
+        return vFuelType;
+    }
+
+    public void setvFuelType(String vFuelType) {
+        this.vFuelType = vFuelType;
+    }
+
+    public String getvColor() {
+        return vColor;
+    }
+
+    public void setvColor(String vColor) {
+        this.vColor = vColor;
+    }
+
+    public int getOwnerId() {
+        return ownerId;
+    }
+
+    public void setOwnerId(int ownerId) {
+        this.ownerId = ownerId;
+    }
+
+    public Vehicle(int vId, String vRegister, String vMake, String vEngineType, String vFuelType, String vColor) {
             this.vId = vId;
             this.vRegister = vRegister;
             this.vMake = vMake;
@@ -89,4 +146,6 @@ public class Vehicle {
                 ", vColor='" + vColor + '\'' +
                 '}';
     }
+
+
 }
