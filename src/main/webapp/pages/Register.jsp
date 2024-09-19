@@ -90,7 +90,7 @@
                 <a class="btn btn-danger" href='/vcs_war_exploded/DeleteVehicle?id=<%=vehicle.getVId()%>'>Delete</a>
             </td>
             <td>
-                <a class="btn btn-warning" href='/vcs_war_exploded/pages/UpdateOwner.jsp?id=<%=vehicle.getOwnerId()%>'>Update</a>
+                <a class="btn btn-warning" href='/vcs_war_exploded/pages/UpdateVehicle.jsp?id=<%=vehicle.getVId()%>'>Update</a>
             </td>
 
         </tr>
